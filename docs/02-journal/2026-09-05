@@ -1,0 +1,28 @@
+# JOURNAL DU 25 AOUT 2026
+# Journal — mardi 25 août 2026 (rédigé par : Prénom NOM)
+
+## Fait aujourd'hui
+
+- Formation sur la "smart weather station" : réalisation d'un montage sur breadboard.
+
+- Câblage d'une carte Studio XIAO ESP32-S3, d'un capteur DHT11 et d'un écran OLED (broches VCC / GND / SCL / SDA), le tout alimenté en USB-C ![image](../medias/Dispositif%201.jpeg)
+
+
+## Appris
+
+- Le rôle des broches GND et OUT dans un montage électronique (référence de masse commune vs sortie de signal)
+- Le câblage d'un écran OLED en I2C via les 4 broches VCC, GND, SCL, SDA.
+- Le principe de lecture d'un capteur de température/humidité DHT11 relié à un microcontrôleur ESP32-S3
+
+## Raté, puis corrigé
+
+- Après montage, notre groupe n'avait pas reçu de signal sur l'écran OLED.
+-Après l'assistance du formateur, on a eu le résultat attendu ![image](../medias/Dispositif%201.jpeg)
+
+## Décidé
+
+De reprendre seul le même montage
+
+## À faire demain
+
+Réessayer avec mon groupe d'aujourd'hui de réaliser le même montage et de le présenter aux formateurs

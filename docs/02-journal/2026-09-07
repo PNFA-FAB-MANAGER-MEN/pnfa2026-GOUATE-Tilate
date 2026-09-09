@@ -1,0 +1,34 @@
+# JOURNAL DU 07 SEPTEMBRE 2026
+# Journal — lundi 7 septembre 2026 (rédigé par : Tilate GOUATE)
+
+## Fait aujourd'hui
+
+- Initiation au logiciel **KiCad** pour la conception de circuits imprimés (PCB) ![image](../medias/07-09%20Kicad%202.png)
+- Réalisation du schéma électronique ![image](../medias/07-09%20Kicad%203.png)
+- Placement des empreintes et routage des pistes cuivre dans PCB ![image](../medias/07-09%20Routage.png)
+- Génération du rendu 3D de la carte pour vérifier l'implantation des composants ![image](../medias/07-09%20Fin%202.png) ![image](../medias/07-09%20Fin%201.png)
+
+## Appris
+
+- La différence entre l'éditeur de **schématique** (logique électrique) et l'éditeur de **PCB** (implantation physique des composants).
+- Le rôle de l'outil **ERC** (Contrôle des Règles Électriques) pour valider un schéma avant de router la carte.
+- Le principe du **chevelu** : les lignes qui indiquent les connexions logiques restant à router en pistes.
+- La lecture du **rendu 3D** pour contrôler visuellement l'orientation et le placement des composants (LED, transistor, résistances).
+
+## Raté, puis corrigé
+
+- Premier lancement de l'ERC : 2 erreurs signalées 
+- Hypothèse de cause : réseaux +5V et GND non fermés (pile absente du schéma) ![image](../medias/07-09%20Kicad%202.png)
+- Correction tentée : ajout du symbole BT1 (Battery) et connexion complète des rails +5V/GND 
+- Résultat : nouvel ERC exécuté avec 0 erreur et 0 avertissement ![image](../medias/07-09%20Kicad%205.png)
+
+## Décidé
+
+- Choix de router les pistes manuellement plutôt que d'utiliser l'autorouteur, pour mieux comprendre chaque connexion 
+
+## À faire demain
+
+- Approfondir le routage des pistes (largeur, règles de conception) 
+- Exporter les fichiers de fabrication (Gerber) du PCB réalisé.
+
+Tilate GOUATE

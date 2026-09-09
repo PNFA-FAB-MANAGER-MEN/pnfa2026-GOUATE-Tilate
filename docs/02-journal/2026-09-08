@@ -1,0 +1,36 @@
+# JOURNAL DU 08 SEPTEMBRE 2026
+# Journal — mardi 8 septembre 2026 (rédigé par : Tilate GOUATE)
+
+## Fait aujourd'hui
+
+- Cours sur la **FAO (Fabrication Assistée par Ordinateur)** : de la conception à la pièce usinée avec **Fusion 360**.
+- Étude du flux de travail FAO : Posage (étape essentielle), choix des outils, opérations d'usinage (ébauche et finition), simulation, post-traitement ![image](../medias/3.%2008-09-2026.png)
+- Configuration d'un outil de coupe : fraise torique 3 mm, rayon de bout 0,75 mm, 2 dents, matière HSS ![image](../medias/4.%2008-09-2026.png)
+- Lancement d'une simulation d'usinage : opération de contournage sur la face du brut ![image](../medias/13.%2008-09.png)
+- Discussion de groupe au tour du projet à réaliser et soutenir: Essai de conception du circuit, PCB et du boitier en 3D avec Fusion 360
+
+## Appris
+
+- Le flux de travail FAO dans Fusion 360 : Posage -- choix des outils -- finition -- simulation -- post-traitement.
+- Les paramètres de coupe clé d'un outil
+- Le rôle de la **simulation** : vérifier la trajectoire d'outil avant l'usinage réel pour éviter les erreurs.
+- Le rôle du **post-traitement** : traduire les opérations en G-code compréhensible par la machine.
+- L'intérêt d'utiliser la FAO (précision, anticipation des erreurs) et quelques bonnes pratiques à retenir pour organiser un posage.
+
+## Raté, puis corrigé
+
+- Mon repère (posage) a été pris sur la **largeur** ![image](../medias/8.%2008-09.png) de la pièce au lieu de la **longueur**, contrairement à celui du formateur
+- Hypothèse de cause : mauvais choix des axes lors de la création du posage 
+- Correction tentée : fermeture du fichier et reprise du posage depuis le début
+- Résultat : un autre problème est réapparu, le résultat obtenu est différent du premier (cette fois le traitement a pris juste les bords de la face du dessus au lieu de toute la face) ![image](../medias/12.%2008-09.png)
+
+## Décidé
+
+- Continuer avec le posage actuel pour terminer l'exercice du jour, et revoir avec le formateur demain le bon choix d'axe (longueur - largeur) pour l'orientation du repère.
+
+## À faire demain
+
+- Reprendre la définition du posage en orientant le repère sur la longueur, comme fait par le formateur 
+- Comparer le résultat obtenu avec celui du formateur après correction du repère 
+
+Tilate GOUATE
