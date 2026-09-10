@@ -1,0 +1,27 @@
+# JOURNAL DU 09 SEPTEMBRE 2026
+# Journal — mercredi 09 Septembre 2026 (rédigé par : Prénom NOM)
+
+
+## Fait aujourd'hui
+- Conception du circuit puis passage à la réalisation du PCB ![image](../medias/09-09%20.1.png) ![image](../medias/09-09%20.2.png)
+- Installation des librairies KiCad pour le XIAO ESP32 et pour OLED.
+- Dessin du symbole OLED avec placement des broches GND, VCC, SCL et SDA [image](../medias/09-09.%201.2.png)
+- Création des empreintes (footprints) et configuration de la librairie d'empreintes [image](../medias/09-09.%201.5.png)
+
+## Appris
+
+- Le lien entre un symbole schématique et son empreinte dépend directement d'une bonne exportation de la librairie : une exportation ratée peut fausser tout le routage.
+- Méthode d'installation et de configuration des librairies (XIAO ESP32, OLED) dans KiCad
+
+## Raté, puis corrigé
+
+- L'exportation de la librairie de l'OLED a échoué, ce qui a déformé le symbole au moment du routage.
+- Correction tentée : un stagiaire devrait m'aider mais il était dejà l'heure
+
+## Décidé
+
+Reprendre demain le même exercice et demander l'aide d'un stagiaire
+
+## À faire demain
+
+Reprendre demain le même exercice et demander l'aide d'un stagiaire
