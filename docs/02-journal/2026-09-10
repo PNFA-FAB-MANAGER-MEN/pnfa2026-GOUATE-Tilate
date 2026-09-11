@@ -1,0 +1,32 @@
+# JOURNAL DU 10 SEPTEMBRE 2026
+# Journal — Jeudi, 10 Septembre 2026 (rédigé par : Tilate GOUATE)
+
+
+## Fait aujourd'hui
+
+Journée entièrement consacrée au travail de groupe sur les projets, du matin jusqu'au soir. Nous avons essayé de réaliser le Projet 0 en montant le circuit sur breadboard (ESP32-S3 XIAO, LED, résistance). Nous avons retenté le montage à plusieurs reprises au cours de la journée.
+![image](../medias/10-09%2001.jpeg)
+
+## Appris
+- À reconnaître et diagnostiquer des erreurs de montage sur breadboard en travaillant en groupe.
+- À représenter le même circuit dans KiCad en vue d'une réalisation du PCB ![image](../medias/10-09%20Circuit%200.jpeg)
+
+## Raté, puis corrigé
+
+- Le circuit du Projet 0 ne fonctionnait pas malgré plusieurs tentatives de montage sur breadboard.
+- Erreur de câblage ou de connexion sur le montage physique.
+- Reprise du montage à plusieurs reprises avec l'aide et les conseils des formateurs pour nous réorienter.
+- Le problème n'était pas totalement résolu en fin de journée ; nous avons décidé de changer d'approche 
+- et enfin on a eu le premier résultat positif ![vidéo](../medias/10-09%20vidéo.mp4)
+
+
+## Décidé
+
+Face aux échecs répétés du montage physique, nous avons décidé de réaliser le circuit dans KiCad d'abord afin de préparer un PCB, puis de reproduire ce même circuit avec les composants physiques une fois le schéma validé. 
+
+## À faire demain
+
+- Poursuivre et finaliser le schéma KiCad du Projet 0 
+- Reproduire le circuit validé avec les composants physiques sur breadboard.
+
+Tilate GOUATE
