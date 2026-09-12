@@ -1,0 +1,45 @@
+# JOURNAL DU 11 SEPTEMBRE 2026
+# Journal — Vendredi, 11 Septembre 2026 (rédigé par : Tilate GOUATE)
+
+## Fait aujourd'hui
+- Continué le projet de minuterie d'éclairage d'atelier. 
+- Monté le circuit de test sur breadboard (ESP32-S3, module relais 5V, PIR, LED + résistance) ![image](../medias/11-09%201.jpeg)
+- Testé le fonctionnement : la LED s'est allumée mais le circuit n'a que partiellement fonctionné ![image](../medias/11-09%202.jpeg)
+- Essayé ensuite de créer le schéma du circuit dans KiCad en vue de réaliser le PCB, sans succès pour le moment.
+
+**Schéma de câblage utilisé :**
+![image](../medias/11-09%201.jpeg)
+
+**Montage réalisé sur breadboard :**
+![image](../medias/11-09%202.jpeg)
+
+**Référence de fonctionnement visée (tutoriel vidéo) :**
+![image](../medias/11-09%203.jpeg)
+
+**Schéma de câblage du relais sur secteur 220V:**
+![image](../medias/11-09%204.jpeg)
+
+## Appris
+- Le câblage détaillé des connexions 
+- L'importance de ne pas confondre les contacts NO/NC du relais et de garder les masses (GND) communes entre tous les modules.
+- Une résistance de 220–330 Ω est nécessaire pour protéger la LED côté sortie du relais.
+
+## Raté, puis corrigé
+- Le circuit monté n'a fonctionné que partiellement (allumage de la LED incomplet/instable)
+- Cause : mauvaise connexion sur la breadboard ou masse (GND) non commune entre les module
+- Correction tentée : vérification et reprise de certains branchements sur la breadboard
+- Résultat : amélioration partielle, problème non totalement résolu
+
+- Tentative de création du schéma sur KiCad pour le PCB
+- Cause : manque de maîtrise des symboles/outils KiCad pour ce montage précis
+- Correction tentée : reprise pas à pas de la saisie du schéma
+- Résultat : échec, schéma non finalisé ![image](../medias/10-09%20Circuit%200.jpeg)
+
+## Décidé
+- Poursuivre le débogage du circuit physique avant de finaliser le schéma KiCad, pour garantir un design PCB.
+
+## À faire demain
+- Reprendre le câblage du circuit et identifier la cause du dysfonctionnement.
+- Continuer la conception du schéma KiCad avec l'aide du formateur ou de ressources supplémentaires.
+
+**Tilate GOUATE**
