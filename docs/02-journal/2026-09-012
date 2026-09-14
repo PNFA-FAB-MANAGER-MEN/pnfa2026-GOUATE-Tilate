@@ -1,0 +1,24 @@
+# JOURNAL DU 12 SEPTEMBRE 2026
+# Journal — Samedi 12 Septembre 2026 (Rédigé par : Tilate GOUATE**)
+
+## Fait aujourd'hui
+- Poursuite du projet de minuterie d'éclairage d'atelier.
+- Le branchement complet du circuit (capteur PIR, module relais, breadboard) a été finalisé et l'allumage automatique a parfaitement fonctionné. 
+- Le montage a ensuite été testé directement sur l'alimentation secteur 220V, avec succès![image](../medias/12-09%201.jpeg)
+- test de fonctionnement réalisé avec succès sous tension secteur 220V ![image](../medias/12-09%20video.mp4)
+
+## Appris
+Les limites pratiques de la réalisation d'un PCB avec KiCad dans le temps imparti, et l'intérêt d'une plaquette perforée comme solution alternative fiable pour le câblage définitif d'un circuit.
+
+## Raté, puis corrigé
+- La réalisation du PCB avec KiCad s'est révélée trop difficile à finaliser
+- Cause: complexité de l'outil et temps insuffisant pour la maîtriser sur ce projet 
+- Correction tentée: décision de basculer vers une plaquette perforée pour réaliser le câblage.
+
+## Décidé
+Abandonner de la réalisation du PCB sous KiCad au profit d'une plaquette perforée pour le câblage définitif du circut.
+
+## À faire demain
+Réaliser le câblage définitif du circuit sur la plaquette perforée.
+
+Tilate GOUATE
