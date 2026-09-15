@@ -1,0 +1,33 @@
+# JOURNAL DU SEPTEMBRE 2026 
+# Journal-Lundi 14 Septembre 2026 (Rédigé par Tilate GOUATE) 
+
+## Fait aujourd'hui
+
+Poursuite du projet. On a d'abord essayé d'améliorer le circuit en y ajoutant une photorésistance (pour moduler le déclenchement selon la luminosité ambiante). On a ensuite essayé la conception, sous Fusion 360 du boîtier destiné à contenir le PCB, le relais et les autres composants : réalisation du boîtier (plots de montage, fentes de ventilation, passages de câbles) et du couvercle (trous de fixation ) 
+
+![image](../medias/Screenshot%202026-09-14%20163656.png)
+![image](../medias/Screenshot%202026-09-14%20163730.png)
+
+## Appris
+
+L'ajout d'un composant supplémentaire (photorésistance) sur un montage déjà fonctionnel peut déstabiliser tout le système : la lumière ambiante rend un seuil de détection basé sur une simple photorésistance peu fiable sans filtrage.
+
+## Raté, puis corrigé
+
+- Fait : l'ajout de la photorésistance au circuit a fait que celui-ci ne répondait plus correctement.
+- Cause : le seuil de déclenchement n'était pas stable car il était perturbé par la lumière du jour (variation naturelle de luminosité).
+- Correction tentée : abandon de cette modification pour aujourd'hui, retour à la dernière version stable du montage (celle validée avant-hier).
+- Résultat : le circuit stable a été conservé tel quel ; le travail du jour s'est réorienté vers la conception du boîtier.
+
+## Décidé
+
+- Ne pas intégrer la photorésistance en l'état
+- Conserver la version du circuit validée hier en attendant une solution de stabilisation du seuil.
+- Priorité donnée à la conception du boîtier pour avancer.
+
+## À faire demain
+
+- Étudier une solution pour stabiliser le seuil de la photorésistance avant de retenter son intégration.
+- Terminer la conception du boîtier et du couvercle sous Fusion 360 
+
+Tilate GOUATE
