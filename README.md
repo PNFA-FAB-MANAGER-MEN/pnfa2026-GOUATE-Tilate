@@ -50,7 +50,7 @@ Schéma bloc (image) : capteurs → carte XIAO ESP32S3 → actionneurs / liaison
 | J2 Conception | 05/09 | ⬜ | v0.2 |
 | J3 Prototype | 12/09 | ⬜ | v0.5 |
 | J4 Intégration | 16/09 | ⬜ | v0.9 |
-| Gel du dépôt | 17/09 18 h | ⬜ | v1.0 |
+| Gel du dépôt | 17/09 18 h | ⬜ | v1.0 |7
 
 ## Reproduire ce dispositif
 
