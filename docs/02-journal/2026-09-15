@@ -1,0 +1,24 @@
+# JOURNAL DU 15 SEPTEMBRE 2026 
+# Journal-Mardi 15 Septembre 2026 (Rédigé par Tilate GOUATE) 
+
+## Fait aujourd'hui
+- Finalisation de la conception du PCB sous KiCad : placement des composants (module ESP32, connecteurs LDR, PIR, RELAIS, résistance, LED) et routage complet des pistes ![image](../medias/15-09%203.jpeg) ![image](../medias/15-09%204.jpeg)
+- Correction de petites coquilles sur le boîtier conçu sous Fusion 360.
+- Fonctionnement correct du système ![image](../medias/15-09%202.jpeg) ![vidéo](../medias/15-09.mp4)
+
+## Appris
+- Le passage du prototype breadboard au PCB oblige à revérifier chaque connexion une par une : un câblage qui marche sur breadboard ne garantit pas un routage propre, il faut repenser le placement des connecteurs (LDR, PIR, Relais) pour que les pistes ne se croisent pas inutilement.
+- Une conception de boîtier (Fusion 360) et une conception de PCB (KiCad) doivent avancer ensemble : les coquilles trouvées sur le boîtier venaient en partie de cotes qui ne correspondaient plus exactement à l'implantation finale des composants sur la carte.
+
+## Raté, puis corrigé
+- Le boîtier réalisé sous Fusion 360 comportait quelques coquilles (petites erreurs de conception) 
+- Cause : Erreur de dimmensions qui ne correspondaient pas au dimmensions du PCB pour la fixation 
+- Correction tentée : reprise des cotes concernés dans Fusion 360 - Résultat : coquilles corrigées.
+
+## Décidé
+- Poursuite de la conception sur PCB (KiCad) plutôt que le retour à la plaquette perforée envisagé après les difficultés du 14 Septembre
+- Percage du PCB, placement des composants définitifs (module ESP32, relais, LDR, PIR)
+
+## À faire demain
+- Exporter les fichiers de fabrication du PCB (Gerber) et lancer l'impression du boîtier corrigé 
+- souder les composant sur le PCB
