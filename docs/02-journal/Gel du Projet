@@ -1,0 +1,57 @@
+# GEL DU PROJET (17 Septembre 2026)
+# Gel du projet — Rédigé par Tilate GOUATE
+
+**Rédigé par :** Tilate GOUATE
+**Période couverte :** du lancement du projet au 17 septembre 2026 (finalisation)
+
+## Présentation du projet
+
+Conception d'une minuterie d'éclairage d'atelier basée sur un ESP32-S3, combinant :
+- un allumage manuel 
+- un extinction automatique
+- une extinction automatique si aucun mouvement n'est détection à la fin de la minuterie ou manuelle à tout moment
+- une lampe alimentée en secteur 220V, pilotée via un relais
+- l'ensemble électronique est protégé dans un boîtier dédié.
+
+## Appris
+
+- La logique de commande d'un éclairage temporisé à base de capteur PIR 
+
+- Le pilotage d'une charge secteur 220V en toute sécurité via un relais commandé par un ESP32-S3.
+
+- La conception et le routage d'un circuit imprimé (PCB) sous KiCad, jusqu'à la préparation d'un fichier prêt pour la fabrication.
+
+- L'intérêt de remplacer un câblage sur breadboard par un circuit sur PCB (puis intégré dans un boîtier) 
+
+- La conception du boîtier sur mesure (Fusion 360) et sa réalisation par impression 3D 
+
+
+## Difficultés rencontrées
+
+- **Réalisation du PCB sous KiCad** : premières tentatives infructueuses, ayant conduit à basculer temporairement sur une plaquette perforée pour assurer un câblage définitif fonctionnel pendant que la conception du PCB était reprise en parallèle.
+
+- **Ajout d'une photorésistance** pour améliorer le circuit : cette modification a déstabilisé tout le système (plus de réponse du capteur, seuil de détection instable à cause de la lumière du jour).
+
+- **Boîtier initial** : les trous de vis positionnés du côté des terminal blocks gênaient l'accès et devaient être déplacés.
+
+- **Contrainte de protection imposée en cours de projet** : les encadreurs ont demandé, une fois le montage validé sur planche, de protéger le circuit dans un boîtier fermé en forme de maison plutôt que de le laisser à nu.
+
+## Solutions apportées
+
+- Face aux difficultés de PCB, retour à une solution intermédiaire fiable (plaquette perforée) pour ne pas bloquer l'avancement, puis reprise et finalisation de la conception KiCad (schéma, routage, fichier de fabrication) une fois le boîtier avancé.
+
+- Face à l'instabilité causée par la photorésistance, retour immédiat à la dernière version stable du circuit (sans la photorésistance) plutôt que de s'obstiner sur une amélioration qui dégradait la fiabilité globale.
+
+- Refonte du boîtier avec repositionnement des trous de vis du côté opposé aux terminal blocks, pour un montage plus pratique.
+
+- Intégration complète du circuit (ESP32-S3, relais, câblage, capteur) à l'intérieur, puis validation finale du fonctionnement une fois le circuit installé en salle.
+
+## Perspectives / ce qui est envisagé
+
+- Rédaction de la documentation technique complète du projet (contexte, objectifs, démarche, difficultés et solutions, résultats).
+
+- Soutenance du projet avec présentation PowerPoint.
+
+- Le projet est considéré comme finalisé sur le plan technique : montage fonctionnel, protégé, intégré et testé.
+
+Tilate GOUATE
